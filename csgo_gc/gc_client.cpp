@@ -3,6 +3,7 @@
 #include "graffiti.h"
 #include "keyvalue.h"
 
+
 ClientGC::ClientGC(uint64_t steamId)
     : m_steamId{ steamId }
     , m_inventory{ steamId, m_config }
